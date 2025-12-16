@@ -1,0 +1,11 @@
+import random
+
+szamok = []
+
+for szam in range(10):
+    szam = random.randint(1, 50)
+    if szam % 4 == 0:
+        szamok.append(szam)
+
+
+print(len(szamok))
